@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Details</title>
+
+  <link rel="stylesheet" href="style 2.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <!-- Header -->
+
+  <header class="header">
+
+    <div class="logo">
+      <h3>TaskFlow</h3>
+    </div>
+
+    <nav class="navbar">
+
+      <div class="home">
+        <a href="index.html">Home</a>
+      </div>
+
+      <div class="add-task-nav">
+        <a href="#">Add Task</a>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- Features Section -->
+
+ 
+
+
+  <!-- TOP HEADER -->
+
+  <section class="top-section">
+
+    <div class="container top-content">
+
+      <!-- Left -->
+
+      <div class="top-left">
+
+        <h1>Task Details</h1>
+
+        <p>A closer look at this task.</p>
+
+      </div>
+
+      <!-- Right -->
+
+      <div class="top-right">
+
+       <button type="button" id="backBtn">
+       ← Back to list
+       </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MAIN CONTENT -->
+
+  <section class="main-section">
+
+    <div class="container content-layout">
+
+      <!-- LEFT CARD -->
+
+      <div class="left-card">
+
+        <!-- Tag -->
+
+        <div class="work-tag">
+          WORK
+        </div>
+
+        <!-- Title -->
+
+        <h2 class="task-title">
+          Finish the landing page assignment
+        </h2>
+
+        <!-- Date -->
+
+        <p class="task-date">
+          Created on May 18, 2026 · Due May 25, 2026
+        </p>
+
+        <!-- Description -->
+
+        <p class="description">
+      Build a 4-section responsive landing page using HTML and CSS flexbox.<br>
+The page should include a navbar, a hero section, a features section<br>
+with three cards, and a footer. Use semantic HTML tags and add a few<br>
+comments to explain the flexbox properties used.
+        </p>
+
+        <!-- Checklist -->
+
+        <h3 class="checklist-heading">
+          Checklist
+        </h3>
+
+        <div class="checklist">
+
+          <!-- Item 1 -->
+
+          <label class="check-item completed">
+
+            <input type="checkbox" checked>
+
+            <span class="check-text">
+              Sketch the layout on paper
+            </span>
+
+          </label>
+
+          <!-- Item 2 -->
+
+          <label class="check-item completed">
+
+            <input type="checkbox" checked>
+
+            <span class="check-text">
+              Write the HTML structure
+            </span>
+
+          </label>
+
+          <!-- Item 3 -->
+
+          <label class="check-item">
+
+            <input type="checkbox">
+
+            <span class="check-text">
+              Add the CSS styles
+            </span>
+
+          </label>
+
+          <!-- Item 4 -->
+
+          <label class="check-item">
+
+            <input type="checkbox">
+
+            <span class="check-text">
+              Test on a small screen
+            </span>
+
+          </label>
+
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="button-group">
+
+          <button class="complete-btn" id="completeBtn">
+            Mark Complete
+          </button>
+
+         <button type="button" class="edit-btn" id="editBtn">
+         Edit Task
+        </button>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT CARDS -->
+
+      <div class="right-section">
+
+        <!-- Status -->
+
+        <div class="info-card">
+
+          <h4>STATUS</h4>
+
+          <p class="blue-text" id="statusText">
+            In Progress
+          </p>
+
+        </div>
+
+        <!-- Priority -->
+
+        <div class="info-card">
+
+          <h4>PRIORITY</h4>
+
+          <p id="priorityText">
+            High
+          </p>
+
+        </div>
+
+        <!-- Category -->
+
+        <div class="info-card">
+
+          <h4>CATEGORY</h4>
+
+          <p>
+            Work
+          </p>
+
+        </div>
+
+        <!-- Due Date -->
+
+        <div class="info-card">
+
+          <h4>DUE DATE</h4>
+
+          <p>
+            May 25, 2026
+          </p>
+
+        </div>
+
+        <!-- Assigned -->
+
+        <div class="info-card">
+
+          <h4>ASSIGNED TO</h4>
+
+          <p>
+            You
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="script 11.js"></script>
+
+</body>
+</html>

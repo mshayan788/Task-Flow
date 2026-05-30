@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Task</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style 3.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header class="header">
+
+    <div class="logo">
+      <h3>TaskFlow</h3>
+    </div>
+
+    <nav class="navbar">
+
+      <div class="home">
+        <a href="index.html">Home</a>
+      </div>
+
+      <div class="add-task-nav">
+        <a href="#">Add Task</a>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- TOP HEADER -->
+
+  <section class="top-section">
+
+    <div class="container top-content">
+
+      <!-- LEFT -->
+
+      <div class="top-left">
+        <h1>Add a New Task</h1>
+
+        <p>
+          Fill in the details below to add a task to your list.
+        </p>
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="top-right">
+        <button id="backBtn">
+         ← Back 
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FORM -->
+
+  <div class="form-container">
+
+    <form id="taskForm">
+
+      <!-- TASK TITLE -->
+
+      <div class="form-group">
+
+        <label>Task title</label>
+
+        <input
+          type="text"
+          id="taskTitle"
+          placeholder="e.g. Finish the homework assignment"
+          required
+        >
+
+        <small>Keep it short and clear.</small>
+
+      </div>
+
+      <!-- DESCRIPTION -->
+
+      <div class="form-group">
+
+        <label>Description (optional)</label>
+
+        <textarea
+          id="description"
+          placeholder="Add any extra details, links, or notes..."
+        ></textarea>
+
+      </div>
+
+      <!-- ROW -->
+
+      <div class="row">
+
+        <!-- DATE -->
+
+        <div class="form-group">
+
+          <label>Due date</label>
+
+          <div class="date-box">
+
+            <input type="date" id="dueDate">
+
+            <i class="fa-regular fa-calendar"></i>
+
+          </div>
+
+        </div>
+
+        <!-- CATEGORY -->
+
+        <div class="form-group">
+
+          <label>Category</label>
+
+          <input
+            type="text"
+            id="category"
+            value="Work"
+          >
+
+        </div>
+
+      </div>
+
+      <!-- PRIORITY -->
+
+      <div class="form-group">
+
+        <label>Priority</label>
+
+        <div class="priority-box">
+
+          <label class="priority-option">
+            <input type="radio" name="priority" value="Low">
+            <span>Low</span>
+          </label>
+
+          <label class="priority-option active">
+            <input
+              type="radio"
+              name="priority"
+              value="Medium"
+              checked
+            >
+            <span>Medium</span>
+          </label>
+
+          <label class="priority-option">
+            <input type="radio" name="priority" value="High">
+            <span>High</span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <!-- REMINDER -->
+
+      <div class="checkbox-area">
+
+        <input type="checkbox" id="reminder">
+
+        <label for="reminder">
+          Send me a reminder one day before the due date
+        </label>
+
+      </div>
+
+      <!-- BUTTONS -->
+
+      <div class="button-group">
+
+        <button type="reset" class="clear-btn">
+          Clear
+        </button>
+        <button type="submit" class="add-btn">
+    Add Task
+</button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+  <!-- JS -->
+
+  <script src="script 2.js"></script>
+
+</body>
+</html>

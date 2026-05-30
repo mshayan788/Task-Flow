@@ -1,0 +1,628 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+    font-family:'Inter', sans-serif;
+    background:#F9FAFB;
+    color:#1F2937;
+}
+
+/* Reusable Container */
+
+.container{
+    width:100%;
+    max-width:920px;
+    margin:auto;
+}
+
+/* Header */
+
+.header{
+    width:100%;
+    height:70px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 40px;
+
+    background:#FFFFFF;
+    border-bottom:1px solid #E5E7EB;
+}
+
+/* Logo */
+
+.logo h3{
+    font-size:24px;
+    font-weight:700;
+    color:#111827;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    align-items:center;
+    gap:35px;
+}
+
+/* Nav Links */
+
+.navbar a{
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+}
+
+/* Home Link */
+
+.home a{
+    color:#4F46E5;
+}
+
+/* Add Task Link */
+
+.add-task-nav a{
+    color:#6B7280;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+    font-family:'Inter', sans-serif;
+    background:#F9FAFB;
+    color:#111827;
+}
+
+/* CONTAINER */
+
+.container{
+    width:100%;
+    max-width:1180px;
+    margin:auto;
+}
+
+/* TOP SECTION */
+
+.top-section{
+    padding:40px 20px 25px;
+}
+
+/* TOP CONTENT */
+
+.top-content{
+    display:flex;
+    justify-content:space-evenly;
+    gap: 340px;
+    align-items:center;
+}
+
+/* LEFT TEXT */
+
+.top-left h1{
+    font-size:52px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.top-left p{
+    font-size:17px;
+    color:#6B7280;
+    margin-left: 10px;
+}
+
+/* BACK BUTTON */
+
+.top-right button{
+    background:#FFFFFF;
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+
+    padding:14px 24px;
+
+    font-size:15px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.top-right button:hover{
+    background:#F3F4F6;
+}
+
+/* MAIN SECTION */
+
+.main-section{
+    padding:0 20px 50px;
+}
+
+/* LAYOUT */
+
+.content-layout{
+    display:flex;
+    gap:15px;
+    align-items:flex-start;
+}
+
+/* LEFT CARD */
+
+.left-card{
+    margin-left: 132px;
+    background:#FFFFFF;
+
+    border:1px solid #E5E7EB;
+    border-radius:16px;
+
+    padding:34px;
+}
+
+/* TAG */
+
+.work-tag{
+    display:inline-block;
+
+    background:#EEF2FF;
+    color:#4F46E5;
+
+    padding:7px 15px;
+
+    border-radius:30px;
+
+    font-size:12px;
+    font-weight:700;
+
+    margin-bottom:24px;
+}
+
+/* TITLE */
+
+.task-title{
+  margin-bottom:20px;
+
+
+width: 480.6px;
+height: 39px;
+opacity: 1;
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 23.4px;
+line-height: 38.4px;
+letter-spacing: 0%;
+vertical-align: middle;
+color:#1F2937;
+;
+
+}
+
+/* DATE */
+
+.task-date{
+color:#6B7280;
+
+margin-bottom:32px;
+
+width: 480.6px;
+height: 21px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 12.2px;
+line-height: 20.8px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+/* DESCRIPTION */
+
+.description{
+    font-size:18px;
+    line-height:1.9;
+
+    color:#374151;
+
+    margin-bottom:38px;
+}
+
+/* CHECKLIST */
+
+.checklist-heading{
+    font-size:28px;
+    margin-bottom:26px;
+}
+
+.checklist{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+
+    margin-bottom:40px;
+}
+
+/* CHECK ITEM */
+
+.check-item{
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    cursor:pointer;
+}
+
+/* CHECKBOX */
+
+.check-item input{
+    width:18px;
+    height:18px;
+
+    cursor:pointer;
+
+    accent-color:#4F46E5;
+}
+
+/* TEXT */
+
+.check-text{
+    font-size:17px;
+    color:#374151;
+}
+
+/* COMPLETED */
+
+.completed .check-text{
+    text-decoration:line-through;
+    color:#9CA3AF;
+}
+
+/* BUTTONS */
+
+.button-group{
+    display:flex;
+    gap:16px;
+}
+
+/* COMPLETE BUTTON */
+
+.complete-btn{
+    background:#4F46E5;
+    color:#FFFFFF;
+
+    border:none;
+    border-radius:10px;
+
+    padding:14px 24px;
+
+    font-size:15px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.complete-btn:hover{
+    background:#4338CA;
+}
+
+/* EDIT BUTTON */
+
+.edit-btn{
+    background:#FFFFFF;
+
+    border:1px solid #D1D5DB;
+    border-radius:10px;
+
+    padding:14px 24px;
+
+    font-size:15px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.edit-btn:hover{
+    background:#F3F4F6;
+}
+
+/* RIGHT SECTION */
+
+.right-section{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+  
+
+    width: 269.3px;
+height: 531.7px;
+padding-bottom: 3.76px;
+gap: 16px;
+opacity: 1;
+left: 562.67px;
+
+
+}
+
+/* INFO CARD */
+
+.info-card{
+    background:#FFFFFF;
+
+    border:1px solid #E5E7EB;
+    border-radius:16px;
+
+    padding:28px;
+}
+
+/* INFO TITLE */
+
+.info-card h4{
+    font-size:14px;
+    letter-spacing:1px;
+
+    color:#6B7280;
+
+    margin-bottom:18px;
+}
+
+/* INFO TEXT */
+
+.info-card p{
+    font-size:19px;
+    color:#111827;
+}
+
+/* BLUE TEXT */
+
+.blue-text{
+    color:#4F46E5 !important;
+}
+/* =====================================
+   RESPONSIVE CSS
+===================================== */
+
+/* Laptop */
+
+@media (max-width: 1200px){
+
+    .header{
+        justify-content:space-between;
+        gap:0;
+        padding:0 30px;
+    }
+
+    .top-content{
+        justify-content:space-between;
+        gap:50px;
+    }
+
+    .left-card{
+        margin-left:0;
+    }
+
+    .task-title,
+    .task-date{
+        width:100%;
+    }
+
+    .right-section{
+        width:100%;
+        max-width:270px;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width: 992px){
+
+    .top-content{
+        justify-content:space-between;
+        gap:20px;
+    }
+
+    .content-layout{
+        flex-direction:column;
+    }
+
+    .left-card{
+        width:100%;
+        margin-left:0;
+    }
+
+    .right-section{
+        width:100%;
+        max-width:100%;
+    }
+
+    .task-title{
+        width:100%;
+        height:auto;
+        line-height:1.5;
+    }
+
+    .task-date{
+        width:100%;
+        height:auto;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px){
+
+    .header{
+        height:auto;
+        flex-direction:column;
+        gap:15px;
+        padding:15px 20px;
+    }
+
+    .navbar{
+        gap:20px;
+    }
+
+    .top-section{
+        padding:30px 20px 20px;
+    }
+
+    .top-content{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    .top-left h1{
+        font-size:40px;
+    }
+
+    .top-left p{
+        margin-left:0;
+    }
+
+    .main-section{
+        padding:0 15px 40px;
+    }
+
+    .left-card{
+        padding:25px;
+    }
+
+    .task-title{
+        font-size:22px;
+    }
+
+    .description{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .button-group{
+        flex-wrap:wrap;
+    }
+
+    .complete-btn,
+    .edit-btn{
+        flex:1;
+        min-width:150px;
+    }
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 576px){
+
+    .container{
+        padding:0 15px;
+    }
+
+    .top-left h1{
+        font-size:32px;
+    }
+
+    .top-left p{
+        font-size:15px;
+    }
+
+    .top-right{
+        width:100%;
+    }
+
+    .top-right button{
+        width:100%;
+    }
+
+    .left-card{
+        padding:20px;
+    }
+
+    .task-title{
+        font-size:20px;
+        line-height:1.4;
+    }
+
+    .task-date{
+        font-size:13px;
+    }
+
+    .description{
+        font-size:15px;
+    }
+
+    .checklist-heading{
+        font-size:22px;
+    }
+
+    .check-text{
+        font-size:15px;
+    }
+
+    .button-group{
+        flex-direction:column;
+    }
+
+    .complete-btn,
+    .edit-btn{
+        width:100%;
+    }
+
+    .info-card{
+        padding:20px;
+    }
+
+    .info-card p{
+        font-size:16px;
+    }
+}
+
+
+/* Very Small Devices */
+
+@media (max-width: 400px){
+
+    .logo h3{
+        font-size:20px;
+    }
+
+    .navbar{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .top-left h1{
+        font-size:28px;
+    }
+
+    .task-title{
+        font-size:18px;
+    }
+
+    .description{
+        font-size:14px;
+    }
+
+    .checklist-heading{
+        font-size:20px;
+    }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaskFlow</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="header">
+
+    <div class="logo">
+      <h3>TaskFlow</h3>
+    </div>
+
+    <nav class="navbar">
+
+      <div class="home">
+        <a href="#">Home</a>
+      </div>
+
+      <div class="add-task-nav">
+        <a href="3page.html">Add Task</a>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- Features Section -->
+
+  <section class="features">
+
+    <div class="container feature-content">
+
+      <div class="text-content">
+
+        <div class="heading">
+          <h1>My Tasks</h1>
+        </div>
+
+        <div class="text">
+          <p>Here's what you're working on today.</p>
+        </div>
+
+      </div>
+
+      <div class="main-button">
+        <button id="addTaskBtn">+ Add Task</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Main Container -->
+
+  <div class="container">
+
+    <!-- Stats Cards -->
+
+    <div class="stats">
+
+      <div class="card">
+        <p>TOTAL</p>
+        <h1 id="totalTasks">6</h1>
+      </div>
+
+      <div class="card">
+        <p>COMPLETED</p>
+        <h1 class="blue" id="completedTasks">2</h1>
+      </div>
+
+      <div class="card">
+        <p>REMAINING</p>
+        <h1 id="remainingTasks">4</h1>
+      </div>
+
+    </div>
+
+    <!-- Task List -->
+
+    <div class="task-container">
+
+      <!-- Task 1 -->
+
+      <div class="task completed">
+
+        <div class="left">
+
+          <input type="checkbox" checked>
+
+          <span class="task-text">
+          Finish the landing page assignment
+          </span>
+
+        </div>
+
+        <div class="right">
+
+          <span class="tag work">WORK</span>
+
+          <button class="delete-btn">Delete</button>
+
+        </div>
+
+      </div>
+
+      <!-- Task 2 -->
+
+      <div class="task">
+
+        <div class="left">
+
+          <input type="checkbox">
+
+          <span class="task-text">
+          Read CSS Grid documentation
+          </span>
+
+        </div>
+
+        <div class="right">
+
+          <span class="tag work">WORK</span>
+
+          <button class="delete-btn">Delete</button>
+
+        </div>
+
+      </div>
+
+      <!-- Task 3 -->
+
+      <div class="task">
+
+        <div class="left">
+
+          <input type="checkbox">
+
+          <span class="task-text">
+          Buy groceries for the week
+          </span>
+
+        </div>
+
+        <div class="right">
+
+          <span class="tag shopping">SHOPPING</span>
+
+          <button class="delete-btn">Delete</button>
+
+        </div>
+
+      </div>
+
+      <!-- Task 4 -->
+
+      <div class="task">
+
+        <div class="left">
+
+          <input type="checkbox">
+
+          <span class="task-text">
+          Call the dentist to book a checkup
+          </span>
+
+        </div>
+
+        <div class="right">
+
+          <span class="tag personal">PERSONAL</span>
+
+          <button class="delete-btn">Delete</button>
+
+        </div>
+
+      </div>
+
+      <!-- Task 5 -->
+
+      <div class="task completed">
+
+        <div class="left">
+
+          <input type="checkbox" checked>
+
+          <span class="task-text">
+            Water the plants
+          </span>
+
+        </div>
+
+        <div class="right">
+
+          <span class="tag personal">PERSONAL</span>
+
+          <button class="delete-btn">Delete</button>
+
+        </div>
+
+      </div>
+
+      <!-- Task 6 -->
+
+      <div class="task">
+
+        <div class="left">
+
+          <input type="checkbox">
+
+          <span class="task-text">
+          Review pull requests on GitHub
+          </span>
+
+        </div>
+
+        <div class="right">
+
+          <span class="tag work">WORK</span>
+
+          <button class="delete-btn">Delete</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
